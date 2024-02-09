@@ -60,7 +60,47 @@ https://github.com/rpatty-dev/winstaller/assets/108372609/3a78f72f-f370-4e7b-af6
 
 p.s if you have no clue on how to do anything i did in the video, your best bet is to ask chatgpt _in my opinion_.
 
-Full view:
+# theming
 
+font used was Cooper bold bt which I found here: https://www.fontsplace.com/cooper-bold-bt-free-font-download.html
+
+background colour:
+**rgb** : 230, 177, 116
+**hex** : #e6b174
+
+font colour:
+**rgb** : 204, 132, 52
+**hex** : #cc8434
+
+# Full view of each page
+
+# Startup
 ![image](https://github.com/rpatty-dev/winstaller/assets/108372609/20f1c864-352e-4e62-919a-2bfd919a1bfc)
 
+# Categories
+
+![image](https://github.com/rpatty-dev/winstaller/assets/108372609/0e324a82-ecd5-4b5e-80e4-c5c112ad57ec)
+
+# tools
+
+![image](https://github.com/rpatty-dev/winstaller/assets/108372609/a9b7c3df-6303-42bf-85a8-b5bb421cf269)
+
+# social
+
+![image](https://github.com/rpatty-dev/winstaller/assets/108372609/dc53babd-f14a-4a95-a3c2-0809eeb1d004)
+
+# pc
+
+![image](https://github.com/rpatty-dev/winstaller/assets/108372609/d8354688-a531-42d7-b65e-92d35c11e7bd)
+
+# qol (Quality of life)
+
+![image](https://github.com/rpatty-dev/winstaller/assets/108372609/f56af689-bd5e-4c2c-92e4-a72026834b2d)
+
+# driver
+
+![image](https://github.com/rpatty-dev/winstaller/assets/108372609/c68bbaba-6379-4721-b3a5-ed9f33803faf)
+
+# game
+
+![image](https://github.com/rpatty-dev/winstaller/assets/108372609/1c414a3f-0a72-414d-a269-a7db23e29663)
