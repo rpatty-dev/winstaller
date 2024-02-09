@@ -1,0 +1,17 @@
+E:\Winstall\Winstaller\bin\Release\Winstaller.exe.config
+E:\Winstall\Winstaller\bin\Release\Winstaller.exe
+E:\Winstall\Winstaller\bin\Release\Winstaller.pdb
+E:\Winstall\Winstaller\obj\Release\Winstaller.csproj.AssemblyReference.cache
+E:\Winstall\Winstaller\obj\Release\Winstaller.Categories.resources
+E:\Winstall\Winstaller\obj\Release\Winstaller.driver.resources
+E:\Winstall\Winstaller\obj\Release\Winstaller.game.resources
+E:\Winstall\Winstaller\obj\Release\Winstaller.pc.resources
+E:\Winstall\Winstaller\obj\Release\Winstaller.qol.resources
+E:\Winstall\Winstaller\obj\Release\Winstaller.social.resources
+E:\Winstall\Winstaller\obj\Release\Winstaller.tools.resources
+E:\Winstall\Winstaller\obj\Release\Winstaller.Welcome.resources
+E:\Winstall\Winstaller\obj\Release\Winstaller.Properties.Resources.resources
+E:\Winstall\Winstaller\obj\Release\Winstaller.csproj.GenerateResource.cache
+E:\Winstall\Winstaller\obj\Release\Winstaller.csproj.CoreCompileInputs.cache
+E:\Winstall\Winstaller\obj\Release\Winstaller.exe
+E:\Winstall\Winstaller\obj\Release\Winstaller.pdb
