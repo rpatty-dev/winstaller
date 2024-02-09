@@ -23,6 +23,7 @@ namespace Winstaller
             driver.Click += driver_Click;
             game.Click += game_Click;
             backbtn.Click += backbtn_Click;
+            browsers.Click += browsers_Click;
         }
 
         private void social_Click(object sender, EventArgs e)
@@ -71,6 +72,13 @@ namespace Winstaller
         {
             Welcome Welcome = new Welcome();
             Welcome.Show();
+            this.Hide();
+        }
+
+        private void browsers_Click(object sender, EventArgs e)
+        {
+            browsers browsers = new browsers();
+            browsers.Show();
             this.Hide();
         }
     }

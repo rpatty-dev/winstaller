@@ -35,5 +35,6 @@ namespace Winstaller
             categoriesForm.Show();
             this.Hide();
         }
+
     }
 }

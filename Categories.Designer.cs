@@ -37,6 +37,7 @@
             this.game = new System.Windows.Forms.Button();
             this.backbtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.browsers = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // CatergoriesLabel
@@ -185,12 +186,31 @@
             this.label1.TabIndex = 25;
             this.label1.Text = "github.com/rpatty-dev/winstaller";
             // 
+            // browsers
+            // 
+            this.browsers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.browsers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(177)))), ((int)(((byte)(116)))));
+            this.browsers.FlatAppearance.BorderSize = 0;
+            this.browsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.browsers.Font = new System.Drawing.Font("Cooper Lt BT", 31.75F, System.Drawing.FontStyle.Bold);
+            this.browsers.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(132)))), ((int)(((byte)(52)))));
+            this.browsers.Location = new System.Drawing.Point(304, 293);
+            this.browsers.Name = "browsers";
+            this.browsers.Size = new System.Drawing.Size(232, 62);
+            this.browsers.TabIndex = 26;
+            this.browsers.Text = "browsers";
+            this.browsers.UseVisualStyleBackColor = false;
+            this.browsers.Click += new System.EventHandler(this.browsers_Click);
+            // 
             // Categories
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(177)))), ((int)(((byte)(116)))));
             this.ClientSize = new System.Drawing.Size(814, 620);
+            this.Controls.Add(this.browsers);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.backbtn);
             this.Controls.Add(this.game);
@@ -218,5 +238,6 @@
         private System.Windows.Forms.Button game;
         private System.Windows.Forms.Button backbtn;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button browsers;
     }
 }
