@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: orange;
+    overflow-x: hidden; /* Disable horizontal scrolling */
+}
+
+.container {
+    position: relative; /* Make the container a positioning context for absolute positioning */
+    text-align: center; /* Center align the content */
+    width: 1000px; /* Set a fixed width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 20px; /* Add some padding to the sides */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+@font-face {
+    font-family: 'CooperBoldBT';
+    src: url('fonts/CooperBoldBT.ttf') format('truetype');
+}
+
+h1 {
+    font-family: 'CooperBoldBT', sans-serif;
+    font-size: 96px; /* Use viewport units for font size */
+    color: #cc8434;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    opacity: 0; /* Initially hide the text */
+    animation: fadeIn 1s ease forwards; /* Apply fade-in animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start with opacity 0 */
+    }
+    to {
+        opacity: 1; /* End with opacity 1 */
+    }
+}
+
+img {
+    width: 50px; /* Set the width of the GitHub logo */
+    height: auto; /* Maintain aspect ratio */
+    opacity: 0; /* Initially hide the image */
+    position: absolute; /* Position the image */
+    bottom: -20px; /* Align the image to the bottom of the container */
+    left: 50%; /* Center the image horizontally */
+    transform: translateX(-50%) translateY(100%); /* Move the image below the container */
+    animation: flyUp 1.5s ease forwards; /* Apply fly-up animation */
+    color: #cc8434; /* Set the color of the GitHub logo */
+}
+@keyframes flyUp {
+    from {
+        transform: translateX(-50%) translateY(100%); /* Start below the container */
+        opacity: 0; /* Start with opacity 0 */
+    }
+    to {
+        transform: translateX(-50%) translateY(0); /* End at the top of the container */
+        opacity: 1; /* End with opacity 1 */
+    }
+}
+
+@media screen and (max-width: 768px) { /* Adjust font size for screens up to 768px wide */
+    h1 {
+        font-size: 55px; /* Decrease font size for smaller screens */
+    }
+}
