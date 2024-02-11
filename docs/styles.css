@@ -7,7 +7,19 @@ body {
     height: 100vh;
     background-color: orange;
     overflow-x: hidden; /* Disable horizontal scrolling */
+    font-family: 'CooperBoldBT', sans-serif;
+    font-size: 36px;
+    color: #cc8434 !important; /* Ensure the color is applied */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    opacity: 0; /* Initially hide the text */
+    animation: fadeIn 1s ease forwards; /* Apply fade-in animation */
+    user-select: none;
+    -webkit-user-select: none; /* For Safari */
+    -moz-user-select: none; /* For Firefox */
+    -ms-user-select: none; /* For Internet Explorer/Edge */
+
 }
+
 
 .container {
     position: relative; /* Make the container a positioning context for absolute positioning */

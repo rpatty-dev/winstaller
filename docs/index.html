@@ -5,13 +5,44 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Winstaller</title>
 <link rel="stylesheet" href="styles.css">
+
+<!-- open graph -->
+<meta property="og:title" content="Winstaller">
+<meta property="og:description" content="The downloading app.">
+<meta property="og:image" content="https://i.imgur.com/epB0itP.png">
+<meta property="og:url" content="https://winstaller.vercel.app/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Winstaller">
 </head>
 <body>
     <div class="container">
-        <h1>Winstaller.</h1>
-        <a href="https://github.com/rpatty-dev/winstaller" target="_blank"> <!-- Opens in a new tab -->
+        <h1>Winstaller<span id="period">.</span></h1>
+        <a href="https://github.com/rpatty-dev/winstaller" id="githubLink" target="_blank" onclick="fadeAndRedirect(event)"> <!-- Opens in a new tab -->
             <img src="https://i.vgy.me/3Lrv3l.png" alt="GitHub Logo">
         </a>
     </div>
+
+    <script>
+        function fadeAndRedirect(event) {
+            event.preventDefault(); // Prevents the default behavior of the link
+            
+            // Fade out the container
+            var container = document.querySelector('.container');
+            container.style.transition = 'opacity 0.7s ease';
+            container.style.opacity = '0';
+            
+            // Get the href attribute from the clicked element
+            var href = event.currentTarget.getAttribute('href');
+            
+            // Wait for 700ms, then redirect
+            setTimeout(function() {
+                window.location.href = href; // Redirect to the link href
+            }, 700);
+        }
+        </script>
+
+<script>
+function _0x13e6(_0x318ffe,_0x460347){var _0x16d404=_0x16d4();return _0x13e6=function(_0x13e66e,_0x2d2ddf){_0x13e66e=_0x13e66e-0x1c6;var _0x782cb1=_0x16d404[_0x13e66e];return _0x782cb1;},_0x13e6(_0x318ffe,_0x460347);}var _0x2e0e4e=_0x13e6;(function(_0x56137e,_0x21baa7){var _0x6de4cb=_0x13e6,_0x842753=_0x56137e();while(!![]){try{var _0x4bc460=parseInt(_0x6de4cb(0x1cb))/0x1*(parseInt(_0x6de4cb(0x1d8))/0x2)+parseInt(_0x6de4cb(0x1ce))/0x3*(parseInt(_0x6de4cb(0x1c9))/0x4)+parseInt(_0x6de4cb(0x1d1))/0x5+-parseInt(_0x6de4cb(0x1d4))/0x6+parseInt(_0x6de4cb(0x1c7))/0x7+-parseInt(_0x6de4cb(0x1d2))/0x8*(-parseInt(_0x6de4cb(0x1d5))/0x9)+-parseInt(_0x6de4cb(0x1da))/0xa;if(_0x4bc460===_0x21baa7)break;else _0x842753['push'](_0x842753['shift']());}catch(_0x502c66){_0x842753['push'](_0x842753['shift']());}}}(_0x16d4,0xbfde1));var F=[_0x2e0e4e(0x1db),_0x2e0e4e(0x1c6),'#FFFF00',_0x2e0e4e(0x1d6),_0x2e0e4e(0x1ca),_0x2e0e4e(0x1cc),_0x2e0e4e(0x1d0)],e=0x0,t,n=![];document[_0x2e0e4e(0x1d7)](_0x2e0e4e(0x1d3))[_0x2e0e4e(0x1c8)]('click',function(){!n&&(n=!![],t=setInterval(function(){var _0x3bc922=_0x13e6;document[_0x3bc922(0x1cf)][_0x3bc922(0x1cd)]['backgroundColor']=F[e],F[e]==='#FFA500'&&clearInterval(t),e++;},0x64),setTimeout(function(){var _0xadef4c=_0x13e6;clearInterval(t),document[_0xadef4c(0x1cf)][_0xadef4c(0x1cd)][_0xadef4c(0x1d9)]='#FFA500';},0x384));});function _0x16d4(){var _0x18fdbd=['style','39AkvNZE','body','#9400D3','4130380WWLyOG','8NGguic','period','8187642UfSpJP','9845865pKsXVN','#00FF00','getElementById','4414LgxtTD','backgroundColor','15452370oUYxuV','#FF0000','#FF7F00','1630153qgGqtj','addEventListener','10896CJPEfW','#0000FF','683HpTKZe','#4B0082'];_0x16d4=function(){return _0x18fdbd;};return _0x16d4();}</script>
+
 </body>
 </html>
